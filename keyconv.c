@@ -192,6 +192,7 @@ main(int argc, char **argv)
 					"SPR : Spreadcoin : S\n"
 					"START : Startcoin : s\n"
 					"SXC : Sexcoin : R or S\n"
+					"TAO : Tao : T\n"
 					"TPC : Templecoin : T\n"
 					"TUX : Tuxcoin : T\n"
 					"UIS : Unitus : U\n"
@@ -531,6 +532,14 @@ main(int argc, char **argv)
 					"Decrypting UNO Address\n");
 					addrtype_opt = 130;
 					privtype_opt = 224;
+					break;
+			}
+			else
+			if (strcmp(optarg, "TAO")== 0) {
+				fprintf(stderr,
+					"Decrypting TAO Address\n");
+					addrtype_opt = 66;
+					privtype_opt = 76;
 					break;
 			}
 			else

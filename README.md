@@ -235,6 +235,7 @@ Current List of Available Coins for Address Generation
 |SPR | Spreadcoin | S  |
 |START | Startcoin | s  |
 |SXC | Sexcoin | R or S  |
+|TAO | Tao | T  |
 |TPC | Templecoin | T  |
 |TUX | Tuxcoin | T  |
 |UIS | Unitus | U  |

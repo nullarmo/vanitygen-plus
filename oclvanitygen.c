@@ -286,6 +286,7 @@ main(int argc, char **argv)
 					"SPR : Spreadcoin : S\n"
 					"START : Startcoin : s\n"
 					"SXC : Sexcoin : R or S\n"
+					"TAO : Tao : T\n"
 					"TPC : Templecoin : T\n"
 					"TUX : Tuxcoin : T\n"
 					"UIS : Unitus : U\n"
@@ -618,6 +619,14 @@ main(int argc, char **argv)
 					"Generating UNO Address\n");
 					addrtype = 130;
 					privtype = 224;
+					break;
+			}
+			else
+			if (strcmp(optarg, "TAO")== 0) {
+				fprintf(stderr,
+					"Generating TAO Address\n");
+					addrtype = 66;
+					privtype = 76;
 					break;
 			}
 			else
